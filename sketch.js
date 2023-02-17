@@ -44,7 +44,6 @@ function setup() {
   player = createSprite(windowWidth / 10, windowHeight / 2, windowWidth / 15, windowHeight / 15);
   player.addAnimation("player", playerI);
   player.scale = windowWidth / 10000;
-  player.debug = true;
   player.setCollider("rectangle", 0, 0, windowWidth / 2.2, windowHeight * 1.5);
 
 
